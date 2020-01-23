@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        
+        <div class="col m3 s12">
+            <div class="profile">
+                    <img class="photo" src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg">
+                    <h2 class="name">{{ name}}</h2>
+            </div>
+
+            <div class="info">
+                <div class="recomandation">
+                    <i class="fas fa-crown"></i>
+                    <span>Рекомендуют {{recomandation}}% гостей</span>
+                </div>
+                <div class="answer">
+                    <i></i>
+                    <span>Среднее время ответа - </span><span class="green">{{answerCall}}</span>
+                </div>
+
+                <button class="btn-item">Редактировать</button>
+            </div>
+        </div>
+
+        <div class="col m8 s12">
+            <div class="top-block">
+                <section class="right-header">
+                    <h2 class="head">{{ name }}</h2>
+                    <h2 class="status">Online</h2>
+                </section>
+
+                <section>
+                    <h2 class="head">About me</h2>
+                    <p>{{about}}</p>
+                </section>
+
+                <section>
+                    <h2 class="head">City</h2>
+                    <p>{{location.city}}, {{location.country}}</p>
+                </section>
+
+                <section>
+                    <h2 class="head">Languages</h2>
+                    <p>{{languages.first}}, {{languages.second}}, {{languages.third}}</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
