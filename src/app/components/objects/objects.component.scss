@@ -1,0 +1,140 @@
+$primary-color: #4A5ECF;
+$border-font: .5px solid rgb(163, 160, 160);
+
+.head {
+    margin: 40px 0;
+    font-size: 2.8rem;
+}
+.price {
+    background-color: white;
+    color: $primary-color;
+    border-radius: 5px;
+    padding:1rem;
+    text-align: center;
+    font-size: 2.2rem;
+    bottom: 0;
+    position: absolute;
+    margin-left: 1rem;
+}
+.box {
+    position: relative;
+    margin-right:2rem;
+}
+.save {
+    color:rgb(255, 255, 255);
+    font-size: 5rem;
+    position:absolute;
+    bottom:0;
+    right:0;
+    cursor: pointer;
+}
+.btn-more {
+    margin: auto;
+    background-color: $primary-color;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+.slide{
+	height: 100%;
+	position: absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index: 1;
+    opacity: 0;
+    background-color: black;
+}
+
+.slide.active,
+.slide.left,
+.slide.right{
+	z-index: 2;
+	opacity: 1;
+}
+.slide.left{
+	left:-100%;
+	right:0;
+}
+
+.slide.right{
+	right:-100%;
+	left: auto;
+}
+
+
+.arrow{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  top:50%;
+  z-index:5;
+  border-top:3px solid #fff;
+  border-right:3px solid #fff;
+  cursor:pointer;
+  transition:border-color 0.3s ease-out;
+}
+
+.arrow:hover{border-color:grey}
+
+.arrow-left{
+  left:20px;
+  transform:rotate(225deg);
+}
+
+.arrow-right{
+  right:20px;
+  transform:rotate(45deg);
+}
+
+.slide{
+  padding-top:25%;
+  background-size:cover;
+}
+
+
+
+.slide:nth-child(1){
+	background-image:url(https://i.pinimg.com/originals/88/3b/d7/883bd78f0cf364c2dec2ede85a5b1b49.jpg);
+ }
+
+.object {
+    border:$border-font;
+    border-radius: 15px;
+}
+.obj-footer {
+    padding:2rem;
+    .desc {
+        color:$primary-color;
+        font-size: 1.8rem;
+
+    }
+
+    .obj-text {
+        display: flex;
+
+        span:nth-child(1) {
+            margin-right: 9rem;
+        }
+    }
+}
+
+.door {
+    color:$primary-color
+}
+
+.street,.score-wrap {
+    border-top:$border-font
+}
+.fa-star {
+    color:$primary-color
+}

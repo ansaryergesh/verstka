@@ -1,0 +1,79 @@
+$default-font-size: 2rem;
+$border-font: .5px solid rgb(163, 160, 160);
+$primary-color: #4A5ECF;
+
+.recAvr {
+    border: $border-font;
+    border-radius: 5px;
+    padding: 0 1.2rem ;
+    vertical-align: middle;
+    font-size: $default-font-size;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    p {
+        margin-right:15px;
+    }
+}
+
+.head {
+    font-size: $default-font-size;
+}
+
+.txt-bl {
+    color:$primary-color;
+    span {
+        color:black;
+    }
+}
+
+
+.comments-box .comments {
+    border-top: $border-font;
+    border-bottom: $border-font;
+    margin-top:5px;
+    padding: 4rem 1.5rem;
+    &:last-child {
+        border-top: none;
+    }
+  
+}
+.comment-list {
+    display: flex;
+  }
+  
+  .comment-h {
+    height: 6rem;
+    margin-right: 2rem;
+    background-color: lighten($primary-color, 20%);
+    border-radius: 50%;
+  }
+  
+  .b-comment {
+    font-size: 1.8rem;
+    color: lighten($primary-color, 20%);;
+    font-weight: bold;
+    span {
+        margin-left: 1.5rem;
+    }
+  }
+  
+ 
+  .my_comment {
+    margin-left:8rem;
+    color: black;
+    border-radius: 0 15px 15px 15px;
+    padding:2.5rem;
+    background-color: lighten($primary-color, 30%);
+    border:$border-font;
+  }
+
+  .paragraph-little-c {
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    color: rgb(163, 160, 160);
+    font-weight: normal;
+  }
+
+  
+  

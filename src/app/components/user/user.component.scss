@@ -1,4 +1,4 @@
-$default-font-size: 1.6rem;
+$default-font-size: 2.5rem;
 $border-font: .5px solid rgb(163, 160, 160);
 $primary-color: #4A5ECF;
 
@@ -28,10 +28,6 @@ button {
 }
 
 .recomandation {
-    padding: 15px 0;
-}
-
-.answer {
     padding: 15px 0;
 }
 
@@ -85,3 +81,31 @@ button {
     font-size: $default-font-size;
     font-weight: bold;
 }
+
+
+.user-checked img {
+    width:7%;
+}
+.userN {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {color:rgb(90, 241, 90);}
+
+.callA {
+    width: 8%;
+}
+
+.demo-problem, .demo-solution {
+    font-size: 14px;
+  }
+  
+  .demo-solution--flexbox {
+    display: flex;
+    align-items: center;
+    margin:auto;
+    img {
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,35 @@
+footer {
+    background-color: #4A5EA8;
+    clear: both;
+    position: relative; 
+}
+.footer-items {
+    // margin-right: 15px;
+    img {
+        width: 100%;
+    }
+}
+
+.footer-lists {
+    color:white;
+    &:last-child {
+        margin-left: 20px;
+    }
+    &:first-child {
+        margin-right: 20px;
+    }
+}
+
+.li-head {
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        margin-right:10px;
+    }
+}
+

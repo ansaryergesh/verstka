@@ -9,13 +9,17 @@ import { FormsModule} from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ObjectsComponent } from './components/objects/objects.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FeedbackComponent } from './components/feedback/feedback.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     HomeComponent,
-    ObjectsComponent
+    ObjectsComponent,
+    FooterComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

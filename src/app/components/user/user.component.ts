@@ -33,7 +33,7 @@ export class UserComponent implements OnInit {
     };
     this.status=false;
     this.recomandation=80;
-    this.answerCall='30 minutes';
+    this.answerCall='30 min';
   }
 
 }
